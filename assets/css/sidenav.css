@@ -1,0 +1,45 @@
+.sidenav {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #555 40%, #777 50%, #555 60%);
+}
+.sidenav .logo {
+  display: flex;
+  align-items: center;
+}
+.sidenav .logo .logo-img {
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  align-items: center;
+}
+.sidenav .logo .logo-title {
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+.sidenav .menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0 1rem;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.sidenav .menu ul li {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.sidenav .menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
